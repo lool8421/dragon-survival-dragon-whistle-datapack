@@ -1,0 +1,3 @@
+scoreboard objectives add dsdw_whistle_cooldown dummy
+
+function ds_dragon_whistle:loop1s

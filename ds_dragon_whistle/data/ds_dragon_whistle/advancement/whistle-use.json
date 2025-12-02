@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "use_whistle": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "player": {
+                    "flags": {
+                        "is_sneaking": false
+                    },
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:stick",
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "ds_dragon_whistle": true
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "use_whistle"
+        ]
+    ],
+    "rewards": {
+        "function": "ds_dragon_whistle:use"
+    },
+    "sends_telemetry_event": false
+}
