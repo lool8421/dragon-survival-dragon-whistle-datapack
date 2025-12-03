@@ -9,7 +9,7 @@
                     },
                     "equipment": {
                         "mainhand": {
-                            "items": "minecraft:stick",
+                            "items": "minecraft:echo_shard",
                             "predicates": {
                                 "minecraft:custom_data": {
                                     "ds_dragon_whistle": true

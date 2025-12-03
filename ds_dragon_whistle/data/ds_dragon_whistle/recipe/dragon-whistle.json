@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "id": "minecraft:stick",
+        "id": "minecraft:echo_shard",
         "components": {
             "minecraft:custom_data": {
                 "ds_dragon_whistle": true,
